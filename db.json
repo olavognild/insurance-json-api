@@ -1,0 +1,42 @@
+{
+  "users": [
+    { "id": 1, "login": "elly", "name": "Elly Ljungberg" },
+    { "id": 2, "login": "hans", "name": "Hans Sahlin" },
+    { "id": 3, "login": "elisabeth", "name": "Elisabeth Österberg" }
+  ],
+  "user_insurances": {
+    "1": [1, 2],
+    "2": [3, 4],
+    "3": [1, 3, 4]
+  },
+  "insurances": [
+    {
+      "id": 1,
+      "title": "Sjukförsäkring PlanSjuk",
+      "preamble": "En helförsäkring för att du ska kunna vara trygg och frisk",
+      "body": "Ekonomisk ersättning om du blir långtidssjukskriven. Förebyggande hälsotjänster och rehabiliteringsstöd för att undvika att du blir det. Allt ingår i PlanSjuk − en komplett sjuk- och friskförsäkring som arbetsgivare köper till sina medarbetare.",
+      "url": "https://euroaccident.com/se/forsakringar/sjukforsakring-plansjuk"
+    },
+    {
+      "id": 2,
+      "title": "Sjukvårdsförsäkring PrivatAccess silver",
+      "preamble": "Din väg till rätt vård i rätt tid",
+      "body": "Med vår sjukvårdsförsäkring PrivatAccess silver får du snabb tillgång till professionell sjukvårdsrådgivning, planerad vård och operation hos privata vårdgivare i Sverige.",
+      "url": "https://euroaccident.com/se/forsakringar/sjukvardsforsakring-privataccess-silver"
+    },
+    {
+      "id": 3,
+      "title": "Olycksfallsförsäkring",
+      "preamble": "Trygghet för dig vid olycksfall – dygnet runt",
+      "body": "Vår Olycksfallsförsäkring kan ersätta dina kostnader vid olycksfall och ge dig ett skattefritt engångsbelopp om olycksfallet ger nedsatt kroppsfunktion eller nedsatt möjlighet att arbeta som tidigare.",
+      "url": "https://euroaccident.com/se/forsakringar/olycksfallsforsakring"
+    },
+    {
+      "id": 4,
+      "title": "Premiebefrielseförsäkring",
+      "preamble": "Fortsatt inbetalning till din tjänstepension om du blir sjuk",
+      "body": "Fortsatt inbetalning av din tjänstepension om du blir sjuk. Ditt tjänstepensionssparande kan därmed fortsätta att växa tills du blir frisk igen eller går i pension. I och med att premiebefrielseförsäkringen är frikopplad från sparandet är det dessutom enkelt att flytta sparandet mellan olika försäkringsbolag.",
+      "url": "https://euroaccident.com/se/forsakringar/premiebefrielseforsakring"
+    }
+  ]
+}
